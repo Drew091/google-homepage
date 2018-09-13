@@ -1,0 +1,209 @@
+
+html {
+  width:100%; height:100%; margin:0; padding:0;
+}
+body {
+  width:100%; height:100%; margin:0; padding:0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+
+}
+
+main {
+  margin-top: 140px;
+  margin-bottom: 55px;
+  flex:1;
+  text-align: center;
+  min-width: 500px;
+}
+
+.button {
+  color: grey;
+  background-color: #f2f2f2;
+  margin-top: 15px;
+  margin-right: 5px;
+  font-size: 13px;
+  font-weight: bold;
+  border: 1px solid #f2f2f2;
+  padding: 10px 15px;
+}
+
+.button:hover {
+  border: 1px solid #C0C0C0;
+  color: black;
+
+}
+
+input[type=text]{
+  margin-top: 20px;
+  box-shadow: 1px 2px 1px #DCDCDC;
+  border: 1px #DCDCDC;
+  border-style: solid;
+  width: 484px;
+  padding: 13px;
+}
+input[type=text]:focus{
+   outline: none;
+   box-shadow: 1px 3px 2px #DCDCDC;
+ }
+
+input[type=text]:hover{
+    box-shadow: 1px 3px 2px #DCDCDC;
+  }
+
+.searchimg{
+  position:relative;
+}
+
+.mic{
+  position: absolute;
+  margin-left:-45px;
+  top: 20px;
+  cursor: pointer;
+  padding:9px 8px;
+  color:#aaa;
+  transition:0.3s;
+}
+
+.dev{
+    position: absolute;
+    margin-left:-95px;
+    top: 20px;
+    cursor: pointer;
+    padding:15px 8px;
+    color:#aaa;
+    transition:0.3s;
+    background-image: url("images/indev.png");
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.6;
+    filter: alpha(opacity=50);
+  }
+
+.dev:hover {
+      background-image: url("images/indev.png");
+      opacity: 1;
+      filter: alpha(opacity=100);
+}
+
+
+header {
+  min-width: 1024px;
+  text-align: right;
+  margin: 7px 7px 0px 0px;
+  font-family: arial,sans-serif;
+  font-size: 12px;
+
+}
+footer {
+  min-height: 40px;
+  margin: 0;
+  min-width: 1024px;
+  font-family: sans-serif;
+  color: grey;
+  font-size: 16px;
+  background-color: #f2f2f2;
+  padding: 0px 27px;
+  border: 0px solid #DCDCDC;
+  border-width: 1px 1px 0px 0px;
+  position: relative;
+}
+
+p {
+  margin-top: 15px;
+  font-size: 12px;
+  font-family: arial,sans-serif;
+}
+.language{
+  text-decoration: initial;
+  color: #1a0dab;
+}
+.language:visited{
+  text-decoration: initial;
+  color: #1a0dab;
+}
+.language:hover{
+  text-decoration: underline;
+}
+
+.hun{
+  margin: 0;
+  position: absolute;
+  top: 25%;
+}
+
+a.right {
+ float: right;
+}
+
+a {
+margin-right: 27px;
+display: inline-table;
+padding: 15px 0;
+}
+
+a.option{
+  margin: 0;
+  float: right;
+  }
+
+header a:link {
+  text-decoration: initial;
+}
+header a:visited {
+  text-decoration: initial;
+}
+header a.head:hover {
+  text-decoration: underline;
+}
+
+.head {
+  color: black;
+}
+
+.app{
+  position: relative;
+  top: 2.5px;
+  background-image: url("images/app.png");
+  background-size: 100%;
+  opacity: 0.6;
+  filter: alpha(opacity=50);
+    }
+
+.app:hover {
+  background-image: url("images/app.png");
+  opacity: 1;
+  filter: alpha(opacity=100);
+
+}
+
+.signup {
+  font-family:arial,sans-serif;
+  background-color: #4285f4;
+  color: white;
+  line-height: 28px;
+  padding: 0px 12px;
+  font-weight:850;
+  border-radius: 3px;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+footer a {
+  font-size: small;
+}
+
+footer a:link {
+  color: grey;
+  text-decoration: initial;
+}
+footer a:visited {
+  color: grey;
+  text-decoration: initial;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
